@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 
 COPY . /app/
 
-ENTRYPOINT [ "sh", "-c", "./scripts/start.sh" ]
+ENTRYPOINT [ "sh", "-c", "chmod +x ./scripts/start.sh" ]
